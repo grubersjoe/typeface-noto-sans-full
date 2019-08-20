@@ -6,11 +6,15 @@
   "author": "Jonathan Gruber <gruberjonathan@gmail.com>",
   "license": "OFL-1.1",
   "main": "index.css",
-  "devDependencies": {
-    "glyphhanger": "^3.2.0"
-  },
+  "files": [
+    "./*",
+    "fonts/*.{woff,woff2}"
+  ],
   "scripts": {
     "build": "./scripts/convert.sh && ./scripts/css.js",
     "docs": "yarn build && rm -f ./docs/fonts/* && cp ./fonts/*.{woff,woff2} ./docs/fonts/ && cp index.css ./docs/"
+  },
+  "devDependencies": {
+    "glyphhanger": "^3.2.0"
   }
 }
