@@ -1,0 +1,16 @@
+{
+  "name": "typeface-noto-sans-full",
+  "version": "1.0.0",
+  "description": "Noto Sans with all font weights",
+  "repository": "https://github.com/grubersjoe/typeface-noto-sans-full",
+  "author": "Jonathan Gruber <gruberjonathan@gmail.com>",
+  "license": "OFL-1.1",
+  "main": "index.css",
+  "devDependencies": {
+    "glyphhanger": "^3.2.0"
+  },
+  "scripts": {
+    "build": "./scripts/convert.sh && ./scripts/css.js",
+    "docs": "yarn build && rm -f ./docs/fonts/* && cp ./fonts/*.{woff,woff2} ./docs/fonts/ && cp index.css ./docs/"
+  }
+}

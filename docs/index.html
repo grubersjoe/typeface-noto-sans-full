@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Typeface Noto Sans</title>
+  <link href="index.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #fff;
+      font-family: "Noto Sans", monospace;
+      font-variant: common-ligatures;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    header p {
+      font-size: 120%;
+    }
+
+    h1 {
+      margin: 0 0 0.75em;
+      font-weight: 700;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      margin: 0 0 0.25em;
+      font-weight: 600;
+      font-size: 1.75em;
+    }
+
+    h3 {
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 2rem;
+    }
+
+    a {
+      border-bottom: 1px solid transparent;
+      text-decoration: none;
+      color: hsl(328, 100%, 50%);
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a img {
+      transition: transform 0.2s ease-in-out;
+    }
+
+    a:hover img {
+      transform: scale(1.08);
+    }
+
+    code {
+      display: inline-block;
+      margin: 2rem 0 4rem;
+      padding: 0.5em 1em;
+      background: #222;
+      border-radius: 0.25em;
+      color: #fff;
+      font-family:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        Menlo,
+        Courier,
+        monospace;
+    }
+
+    .container {
+      max-width: 40rem;
+      margin: 4rem auto;
+    }
+
+    .italic {
+      font-style: italic;
+    }
+
+    .w900 { font-weight: 900; }
+    .w800 { font-weight: 800; }
+    .w700 { font-weight: 700; }
+    .w600 { font-weight: 600; }
+    .w500 { font-weight: 500; }
+    .w400 { font-weight: 400; }
+    .w300 { font-weight: 300; }
+    .w200 { font-weight: 200; }
+    .w100 { font-weight: 100; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Noto Sans Webfonts</h1>
+      <p>
+        <a href="https://www.npmjs.com/package/typeface-noto-sans-full">npm package</a> to easily self-host the typeface <a href="https://www.google.com/get/noto/">Noto Sans</a>
+      </p>
+    </header>
+    <main>
+      <a href="https://github.com/grubersjoe/typeface-noto-sans-full" title="Fork me on GitHub">
+        <img src="github.svg" width="32" style="position: absolute; top: 2rem; right: 2rem;">
+      </a>
+
+      <code>npm install --save typeface-public-sans</code>
+
+      <h2 style="margin-bottom: 6rem;">
+        <a href="https://www.bricolage.io/typefaces-easiest-way-to-self-host-fonts/">Why should I self-host fonts?</a>
+        <br>
+        Performance!
+      </h2>
+
+      <section>
+        <h2 class="w100">Noto Sans Thin (100)</h2>
+        <h2 class="w200">Noto Sans Extra Light (200)</h2>
+        <h2 class="w300">Noto Sans Light (300)</h2>
+        <h2 class="w400">Noto Sans Regular (400)</h2>
+        <h2 class="w500">Noto Sans Medium (500)</h2>
+        <h2 class="w600">Noto Sans Semi Bold (600)</h2>
+        <h2 class="w700">Noto Sans Bold (700)</h2>
+        <h2 class="w800">Noto Sans Extra Bold (800)</h2>
+        <h2 class="w900">Noto Sans Black (900)</h2>
+      </section>
+
+      <section>
+        <h2 class="w100 italic">Noto Sans Thin Italic (100)</h2>
+        <h2 class="w200 italic">Noto Sans Extra Light Italic (200)</h2>
+        <h2 class="w300 italic">Noto Sans Light Italic (300)</h2>
+        <h2 class="w400 italic">Noto Sans Regular Italic (400)</h2>
+        <h2 class="w500 italic">Noto Sans Medium Italic (500)</h2>
+        <h2 class="w600 italic">Noto Sans Semi Bold Italic (600)</h2>
+        <h2 class="w700 italic">Noto Sans Bold Italic (700)</h2>
+        <h2 class="w800 italic">Noto Sans Extra Bold Italic (800)</h2>
+        <h2 class="w900 italic">Noto Sans Black Italic (900)</h2>
+      </section>
+
+      <section>
+        <p>
+          Simon Wheeler backed me into a corner and blockaded me there with his chair, and then sat me down and reeled off the monotonous narrative which follows this paragraph.
+          Simon Wheeler me hizo retroceder en una esquina y me bloqueó allí con su silla, y luego me sentó y me dio cuenta de la monótona narrativa que sigue a este párrafo.
+        </p>
+
+        <p class="italic">
+          Simon Wheeler backed me into a corner and blockaded me there with his chair, and then sat me down and reeled off the monotonous narrative which follows this paragraph.
+          Simon Wheeler me hizo retroceder en una esquina y me bloqueó allí con su silla, y luego me sentó y me dio cuenta de la monótona narrativa que sigue a este párrafo.
+        </p>
+      </section>
+
+      <p>
+        <a href="https://www.google.com/get/noto/">Google Noto Fonts</a>
+        <span style="margin: 0 0.2em">&bull;</span>
+        Package by <a href="https://grubersjoe.de">@grubersjoe</a>
+      </p>
+    </main>
+  </div>
+</body>
+</html>
