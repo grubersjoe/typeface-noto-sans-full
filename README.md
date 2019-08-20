@@ -1,4 +1,4 @@
-# Typeface Noto Sans Full
+# Typeface Noto Sans
 
 This package provides the Noto Sans font including all nine weights:
 
@@ -11,6 +11,12 @@ This package provides the Noto Sans font including all nine weights:
 - Light (300)
 - ExtraLight (200)
 - Thin (100)
+
+## Install
+
+```
+npm install typeface-noto-sans-full
+```
 
 ## TODO
 
