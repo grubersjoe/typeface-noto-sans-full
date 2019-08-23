@@ -38,7 +38,6 @@ function getfontFaceRule(filename) {
   font-display: swap;
   font-weight: ${getNumericWeight(weightName)};
   src:
-    local('Noto Sans'),
     url('./fonts/${filename}2') format('woff2'),
     url('./fonts/${filename}') format('woff');
 }
